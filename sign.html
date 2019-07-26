@@ -1,0 +1,53 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="musicstylesheet.css" type="text/css">
+<link rel="stylesheet" href="sign.css" type="text/css">
+</head>
+<body background="song9.jpg">
+<div class="container-fluid">
+    <div class="row" style="text-align: right;">
+            <div class="col-sm-10"></div>
+        <div class="col-sm-1"><img src="icon1.jpg" style="height:16px;width:20px;"><a href='sign.html' style="text-decoration: none;color:white;">
+        Sign up</a></div>
+        <div class="col-sm-1"><img src="icon2.png" style="height:16px;width:20px;"><a href="login.html" style="text-decoration: none;
+        color:white;">Login</a></div>
+    </div>
+</div>
+<div class="container-fluid" id="bck">
+
+        <div class="page-header">
+        <div class="display-1"><img src="u logo.jpg" style="height:160px;width:200px;"><span id="nm"><a href="music.html" style="color:white;">U-play</a></span><sub>Suno dil ki</sub></div>
+</div>
+    </div>
+<div id="login-box">
+  <div class="left">
+    <h1>Sign up</h1>
+    
+    <input type="text" name="username" placeholder="Username" required/>
+    <input type="text" name="email" placeholder="E-mail" required/>
+    <input type="password" name="password" placeholder="Password" />
+    <input type="password" name="password2" placeholder="Retype password" />
+    <br>
+    <button onclick="fun()">Sign me up</button>
+  </div>
+  
+  <div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+    
+    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin twitter">Log in with Twitter</button>
+    <button class="social-signin google">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div>
+<script>
+function fun()
+{
+alert("Your Account has been Created");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.row{
+    background-color: #555;;
+    height:auto;
+    color:white;
+}
+#bck{
+    background-image:linear-gradient(#000,#555,#000);
+    background-size: cover;
+    background-position: center;
+}
+#nm{
+    font-size: 4em;
+    padding-left: 10px;
+    padding-top: 50px;
+    color:white;
+}
+sub{
+    color:white;
+    font-size:1em;
+}
+.songs{
+    position:relative;
+}
+#b1{
+    height:2.2em;
+    width:6em;
+    position:relative;
+    top:210px;
+    left:-250px;
+}
+.row1{
+    background-image: linear-gradient(red,green);
+}
+#a
+{
+	padding-left:100px;
+}
+#c
+{
+	padding-left:70px;
+}
+
+#b
+{
+	padding-left:70px;
+}
+#aa
+{
+	color:White;
+}
+#bb
+{
+	color:White;
+}
+#cc
+{
+	color:White;
+}
+
+.PARAGRAPH{
+    margin-top:-50px;
+    margin-left:300px;
+    }
+    .SOCIAL{
+        margin-top:-125px;
+        margin-left:1100px;
+        }
+        #social-icon-wrapper {
+            width: 200px;
+            height: auto;
+            margin-left: 1100px;
+            margin-top: -30px;
+           }
+  
